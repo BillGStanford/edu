@@ -817,7 +817,294 @@ const courseData = {
           
         ],
         
+      },
+      {
+        id: 'ap-world-ww2',
+        title: 'AP World History: World War II',
+        description: 'Master the essential history of World War II for your AP World History exam. Learn about the causes, major events, key figures, and global impact of the most devastating conflict in human history.',
+        image: '/thumbnail-images/ww2-history.jpg',
+        category: 'History',
+        level: 'Advanced Placement',
+        instructor: {
+          name: 'Natoli Lemessa',
+          role: 'Knowledge on World History',
+          bio: '8+ years of experience in 20th century global conflicts.',
+          avatar: '/api/placeholder/80/80',
+          rating: 4.9,
+          courseCount: 7
+        },
+        overview: {
+          description: 'This comprehensive AP World History course focuses on World War II (1939-1945), examining its causes, major theaters of conflict, significant battles, key figures, and global aftermath. Through primary source analysis and historiographical debates, you\'ll develop a nuanced understanding of this pivotal global conflict and its long-lasting effects on international relations, economies, and societies. This course aligns with AP World History exam requirements and provides essential context for understanding the modern world order.',
+          learningOutcomes: [
+            'Understanding the causes of World War II, including the Treaty of Versailles and the Great Depression',
+            'Analyzing the rise of fascism and militarism in Europe and Asia',
+            'Examining major battles and military campaigns across different theaters',
+            'Evaluating the role of technology and industrial capacity in modern warfare',
+            'Understanding the Holocaust and other atrocities committed during the war',
+            'Analyzing the home front experiences across different nations',
+            'Examining the formation of the United Nations and postwar international order',
+            'Understanding the origins of the Cold War and decolonization movements',
+            'Developing skills in analyzing primary sources and historical interpretations'
+          ],
+          requirements: [
+            'Basic understanding of early 20th century history (WWI and interwar period)',
+            'Ability to read and analyze historical texts',
+            'Access to required textbooks and course materials',
+            'Interest in global historical perspectives',
+            'Time commitment for reading primary and secondary sources'
+          ],
+          targetAudience: [
+            'AP World History students preparing for exams',
+            'High school students interested in 20th century history',
+            'College students studying modern world history',
+            'History enthusiasts seeking to deepen their understanding of WWII',
+            'Anyone interested in the roots of our contemporary global order'
+          ]
+        },
+        resources: {
+          downloadables: [
+            {
+              title: 'World War II Timeline',
+              description: 'Comprehensive timeline of key events from 1933-1945',
+              fileType: 'PDF',
+              fileSize: '8.2MB',
+              icon: 'FaFileArchive'
+            },
+            {
+              title: 'Primary Source Document Collection',
+              description: 'Key speeches, treaties, and correspondence from the war period',
+              fileType: 'PDF',
+              fileSize: '3.6MB',
+              icon: 'FaFilePdf'
+            },
+            {
+              title: 'World War II Maps Collection',
+              description: 'Detailed maps of major battles and territorial changes',
+              fileType: 'PDF',
+              fileSize: '5.5MB',
+              icon: 'FaFilePdf'
+            },
+            {
+              title: 'AP World History Essay Templates',
+              description: 'Structured templates for DBQ and LEQ responses on WWII topics',
+              fileType: 'PDF',
+              fileSize: '2.2MB',
+              icon: 'FaFilePdf'
+            }
+          ],
+          externalResources: [
+            {
+              title: 'United States Holocaust Memorial Museum',
+              description: 'Comprehensive archive of Holocaust materials and educational resources',
+              url: 'https://www.ushmm.org/'
+            },
+            {
+              title: 'National WWII Museum Digital Collections',
+              description: 'Primary sources, oral histories, and artifacts from WWII',
+              url: 'https://www.nationalww2museum.org/collections'
+            },
+            {
+              title: 'Yale University Avalon Project: WWII Documents',
+              description: 'Collection of key diplomatic and legal documents',
+              url: 'https://avalon.law.yale.edu/subject_menus/wwii.asp'
+            },
+            {
+              title: 'AP World History Course and Exam Description',
+              description: 'Official College Board materials for AP World History',
+              url: 'https://apcentral.collegeboard.org/courses/ap-world-history'
+            }
+          ],
+          recommendedBooks: [
+            {
+              title: 'The Second World War',
+              author: 'Antony Beevor',
+              description: 'Comprehensive single-volume history of the global conflict.'
+            },
+            {
+              title: 'Bloodlands: Europe Between Hitler and Stalin',
+              author: 'Timothy Snyder',
+              description: 'Examination of mass killings in Eastern Europe under Nazi and Soviet regimes.'
+            },
+            {
+              title: 'The Rise and Fall of the Third Reich',
+              author: 'William L. Shirer',
+              description: 'Classic account of Nazi Germany from its rise to its defeat.'
+            },
+            {
+              title: 'Forgotten Ally: Chinas World War II',
+              author: 'Rana Mitter',
+              description: 'Detailed account of Chinas crucial but often overlooked role in WWII.'
+            },
+          ]
+        },
+        lessonVideos: [
+          {
+            lessonId: 'causes-ww2',
+            title: 'Causes of World War II',
+            videoUrl: 'https://www.youtube.com/watch?v=fo2Rb9h788s',
+            duration: '42:15',
+            description: 'Examination of the Treaty of Versailles, the Great Depression, and the rise of fascism'
+          },
+          {
+            lessonId: 'european-theater',
+            title: 'The European Theater of War',
+            videoUrl: 'https://www.youtube.com/watch?v=WOVEy1tC7nk',
+            duration: '48:30',
+            description: 'Analysis of key battles from Blitzkrieg to D-Day and the fall of Berlin'
+          },
+          {
+            lessonId: 'pacific-theater',
+            title: 'The Pacific Theater of War',
+            videoUrl: 'https://www.youtube.com/watch?v=9_TMuoVjEO0',
+            duration: '45:22',
+            description: 'Examination of Japanese expansion, major naval battles, and island-hopping campaigns'
+          },
+          {
+            lessonId: 'holocaust',
+            title: 'The Holocaust and War Crimes',
+            videoUrl: 'https://www.youtube.com/watch?v=sJDsfOWLqO8',
+            duration: '50:15',
+            description: 'Analysis of the Holocaust, Japanese war crimes, and the development of international law'
+          },
+          {
+            lessonId: 'aftermath',
+            title: 'The Aftermath and Legacy',
+            videoUrl: 'https://www.youtube.com/watch?v=9C72ISMF_D0',
+            duration: '46:08',
+            description: 'Examination of the postwar world order, Cold War origins, and decolonization'
+          }
+        ],
+        lessons: [
+          {
+            id: 'causes-ww2',
+            title: 'Causes of World War II',
+            content: 'Examination of the long-term and immediate causes of the conflict, including the Treaty of Versailles, the Great Depression, appeasement policies, and the rise of totalitarian regimes.',
+            duration: 42
+          },
+          {
+            id: 'european-theater',
+            title: 'The European Theater of War',
+            content: 'Analysis of major campaigns and battles in Europe, including the Fall of France, Operation Barbarossa, the Eastern Front, North Africa, Italy, and the Western Front after D-Day.',
+            duration: 48
+          },
+          {
+            id: 'pacific-theater',
+            title: 'The Pacific Theater of War',
+            content: 'Examination of the war in Asia and the Pacific, including Japanese imperial expansion, Pearl Harbor, major naval battles, island-hopping campaigns, and the atomic bombings.',
+            duration: 45
+          },
+          {
+            id: 'holocaust',
+            title: 'The Holocaust and War Crimes',
+            content: 'Analysis of Nazi genocide policies, concentration and death camps, Japanese war crimes in Asia, and the development of the concept of crimes against humanity.',
+            duration: 50
+          },
+          {
+            id: 'aftermath',
+            title: 'The Aftermath and Legacy',
+            content: 'Examination of the immediate and long-term consequences of WWII, including the formation of the UN, Nuremberg Trials, Cold War divisions, and decolonization movements.',
+            duration: 46
+          }
+        ],
+        quizzes: [
+          {
+            id: 'ww2-causes-quiz',
+            title: 'World War II Causes Quiz',
+            description: 'Test your knowledge of the factors leading to World War II',
+            questions: [
+              {
+                id: 'q1',
+                question: 'Which treaty imposed harsh penalties on Germany after World War I?',
+                options: [
+                  'Treaty of Tordesillas',
+                  'Treaty of Versailles',
+                  'Treaty of Brest-Litovsk',
+                  'Treaty of Westphalia'
+                ],
+                correctAnswer: 1
+              },
+              {
+                id: 'q2',
+                question: 'Which policy attempted to avoid war by making concessions to Nazi Germany?',
+                options: ['Containment', 'Appeasement', 'Détente', 'Brinkmanship'],
+                correctAnswer: 1
+              },
+              {
+                id: 'q3',
+                question: 'Which event marked Germany\'s first major violation of the Treaty of Versailles?',
+                options: [
+                  'Invasion of Poland',
+                  'Remilitarization of the Rhineland',
+                  'Anschluss with Austria',
+                  'Munich Agreement'
+                ],
+                correctAnswer: 1
+              }
+            ]
+          },
+          {
+            id: 'ww2-battles-quiz',
+            title: 'Major Battles Quiz',
+            description: 'Test your knowledge of key World War II battles and campaigns',
+            questions: [
+              {
+                id: 'q1',
+                question: 'Which battle marked the turning point of the war in the Pacific?',
+                options: ['Battle of Midway', 'Battle of Coral Sea', 'Battle of Leyte Gulf', 'Battle of Okinawa'],
+                correctAnswer: 0
+              },
+              {
+                id: 'q2',
+                question: 'Which battle is considered the turning point on the Eastern Front?',
+                options: ['Battle of Kursk', 'Battle of Moscow', 'Battle of Stalingrad', 'Battle of Berlin'],
+                correctAnswer: 2
+              },
+              {
+                id: 'q3',
+                question: 'Operation Overlord refers to:',
+                options: [
+                  'The Allied invasion of Sicily',
+                  'The D-Day landings in Normandy',
+                  'The Allied bombing campaign against Germany',
+                  'The Soviet offensive in Eastern Europe'
+                ],
+                correctAnswer: 1
+              }
+            ]
+          },
+          {
+            id: 'ww2-aftermath-quiz',
+            title: 'World War II Aftermath Quiz',
+            description: 'Test your knowledge of the consequences and legacy of World War II',
+            questions: [
+              {
+                id: 'q1',
+                question: 'Which organization was founded in 1945 to prevent future world wars?',
+                options: ['League of Nations', 'United Nations', 'NATO', 'European Union'],
+                correctAnswer: 1
+              },
+              {
+                id: 'q2',
+                question: 'The Nuremberg Trials established the legal precedent for:',
+                options: [
+                  'National sovereignty',
+                  'Crimes against humanity',
+                  'Economic sanctions',
+                  'International trade law'
+                ],
+                correctAnswer: 1
+              },
+              {
+                id: 'q3',
+                question: 'The division of which country symbolized the beginning of the Cold War?',
+                options: ['Korea', 'Vietnam', 'Germany', 'Japan'],
+                correctAnswer: 2
+              }
+            ]
+          }
+        ]
       }
+      
     ]
     
   };

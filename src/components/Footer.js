@@ -25,7 +25,7 @@ const Footer = () => {
               <li><Link to="/" className="text-secondary-300 hover:text-white">Home</Link></li>
               <li><Link to="/courses" className="text-secondary-300 hover:text-white">Courses</Link></li>
               <li><Link to="/about" className="text-secondary-300 hover:text-white">About Us</Link></li>
-              <li><Link to="/faq" className="text-secondary-300 hover:text-white">FAQ</Link></li>
+              <li><Link to="/partner" className="text-secondary-300 hover:text-white">Partner</Link></li>
             </ul>
           </div>
 
@@ -44,17 +44,11 @@ const Footer = () => {
           <div className="col-span-1">
             <h3 className="text-lg font-semibold mb-4 text-white">Stay Connected</h3>
             <div className="flex space-x-4 mb-4">
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-secondary-300 hover:text-white">
+              <a href="https://x.com/edu_static" target="_blank" rel="noopener noreferrer" className="text-secondary-300 hover:text-white">
                 <FaTwitter className="text-xl" />
               </a>
               <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-secondary-300 hover:text-white">
                 <FaYoutube className="text-xl" />
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-secondary-300 hover:text-white">
-                <FaLinkedin className="text-xl" />
-              </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-secondary-300 hover:text-white">
-                <FaGithub className="text-xl" />
               </a>
             </div>
 

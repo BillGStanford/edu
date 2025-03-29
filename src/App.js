@@ -7,6 +7,8 @@ import CourseCatalog from './pages/CourseCatalog';
 import CoursePage from './pages/CoursePage';
 import LessonPage from './pages/LessonPage';
 import QuizPage from './pages/QuizPage';
+import AboutUs from './pages/AboutUs';
+import PartnerPage from './pages/PartnerPage'; // Import the new PartnerPage component
 import NotFound from './pages/NotFound';
 import './App.css';
 
@@ -22,6 +24,8 @@ function App() {
             <Route path="/courses/:courseId" element={<CoursePage />} />
             <Route path="/courses/:courseId/lessons/:lessonId" element={<LessonPage />} />
             <Route path="/courses/:courseId/quizzes/:quizId" element={<QuizPage />} />
+            <Route path="/about" element={<AboutUs />} />
+            <Route path="/partner" element={<PartnerPage />} /> {/* Add the PartnerPage route */}
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
