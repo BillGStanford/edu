@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+
+/* Add these to your App.css or create a new LoadingScreen.css file */
+
+@keyframes float {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  25% {
+    transform: translateY(-20px) translateX(10px);
+  }
+  50% {
+    transform: translateY(0) translateX(20px);
+  }
+  75% {
+    transform: translateY(20px) translateX(10px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  10%, 90% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s forwards;
+}
+
+.animate-fadeInOut {
+  animation: fadeInOut 3.5s infinite;
+}
+
+.animate-spin-slow {
+  animation: spin 20s linear infinite;
+}
+
+.shadow-glow {
+  box-shadow: 0 0 15px rgba(167, 139, 250, 0.6);
+}
+
+/* Add this to your tailwind.config.js extend animations section */
+/* 
+extend: {
+  animation: {
+    'spin-slow': 'spin 20s linear infinite',
+    'fadeIn': 'fadeIn 0.5s forwards',
+    'fadeInOut': 'fadeInOut 3.5s infinite',
+  }
+}
+*/
