@@ -12,8 +12,8 @@ const featuredCourses = [
     image: '/thumbnail-images/webdev-basics.jpg',
     category: 'Web Development',
     level: 'Beginner',
-    lessons: 12,
-    rating: 4.8
+    lessons: 5,
+    rating: 4.0
   },
   {
     id: 'beginners-english',
@@ -22,8 +22,8 @@ const featuredCourses = [
     image: '/thumbnail-images/beginners-english.jpg',
     category: 'Language Learning',
     level: 'Beginner',
-    lessons: 15,
-    rating: 4.9
+    lessons: 5,
+    rating: 4.0
   },
   {
     id: 'react-fundamentals',
@@ -32,8 +32,8 @@ const featuredCourses = [
     image: '/thumbnail-images/react-basics.jpg',
     category: 'Web Development',
     level: 'Intermediate',
-    lessons: 18,
-    rating: 4.7
+    lessons: 5,
+    rating: 4.0
   },
 ];
 
